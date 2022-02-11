@@ -16,6 +16,7 @@ public class Problem4
         while(in.hasNextDouble())
         {
             total += in.nextDouble();
+            count++;
             System.out.println("Enter next number or Q to quit: ");
         }
         //to find the average, divide the total by the count of items
@@ -24,7 +25,7 @@ public class Problem4
         //  find the celsius temp given the fahrenheit temp
         //  when the fahrenheit is 212, the celsius is 100
         int F = 212;
-        double C = 5/9*(F-32);
+        double C = 5.0/9.0*(F-32);
         System.out.println("Celsius: "+C);
 
     }
